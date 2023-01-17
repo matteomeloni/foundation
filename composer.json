@@ -1,12 +1,12 @@
 {
     "name": "matteomeloni/foundation",
-    "description": ":package_description",
+    "description": "A laravel package that provide a basis for api ",
     "license": "MIT",
     "authors": [
         {
-            "name": "Author Name",
-            "email": "author@email.com",
-            "homepage": "http://author.com"
+            "name": "Matteo Meloni",
+            "email": "matteomelonig@gmail.com",
+            "homepage": "https://github.com/matteomeloni"
         }
     ],
     "homepage": "https://github.com/matteomeloni/foundation",
