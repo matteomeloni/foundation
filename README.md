@@ -18,10 +18,6 @@ $ composer require matteomeloni/foundation
 
 ## Change log
 
-Please see the [changelog](changelog.md) for more information on what has changed recently.
-
-## Change log
-
 Please see the [changelog][link-changelog] for more information on what has changed recently.
 
 ## Testing
