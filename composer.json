@@ -31,7 +31,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Matteomeloni\\Foundation\\FoundationServiceProvider"
+                "Matteomeloni\\Foundation\\FoundationServiceProvider",
+                "Matteomeloni\\Foundation\\FoundationResponseMacroServiceProvider"
             ],
             "aliases": {
                 "Foundation": "Matteomeloni\\Foundation\\Facades\\Foundation"
