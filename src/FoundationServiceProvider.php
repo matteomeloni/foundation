@@ -3,6 +3,7 @@
 namespace Matteomeloni\Foundation;
 
 use Illuminate\Support\ServiceProvider;
+use Matteomeloni\Foundation\Router\ExtendedApiResource;
 
 class FoundationServiceProvider extends ServiceProvider
 {
@@ -29,9 +30,9 @@ class FoundationServiceProvider extends ServiceProvider
         $this->mergeConfigFrom(__DIR__.'/../config/foundation.php', 'foundation');
 
         // Register the service the package provides.
-        $this->app->singleton('foundation', function ($app) {
-            return new Foundation;
-        });
+        $this->app->singleton('foundation', fn($app) => new Foundation);
+
+        $this->app->singleton('router', ExtendedApiResource::class);
     }
 
     /**
@@ -41,7 +42,7 @@ class FoundationServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return ['foundation'];
+        return ['foundation', 'router'];
     }
 
     /**
