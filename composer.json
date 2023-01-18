@@ -12,7 +12,8 @@
     "homepage": "https://github.com/matteomeloni/foundation",
     "keywords": ["Laravel", "Foundation"],
     "require": {
-        "illuminate/support": "~9"
+        "illuminate/support": "~9",
+        "matteomeloni/laravel-rest-ql": "^1.0.5"
     },
     "require-dev": {
         "phpunit/phpunit": "~9.0",
